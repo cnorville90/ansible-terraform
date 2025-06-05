@@ -38,7 +38,7 @@ resource "aws_instance" "tf-demo-aws-ec2-instance-2" {
 }
 
 provider "aap" {
-  host     = "https://aap25vmcont.thenorvilles.com"
+  host     = "https://aap.thenorvilles.com"
   username = "cnorville"
   password = "SkyWalk1!"
   insecure_skip_verify = true
